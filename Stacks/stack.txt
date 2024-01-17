@@ -1,0 +1,6 @@
+Stack is the type of data structure that maintains LIFO structure which is last in first out
+In case of stack we have:
+i)Push->add function
+Pop->remove function 
+Peek->gets the top element of the stack
+isEmpty->to know whether stack is empty or not 
