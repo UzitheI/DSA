@@ -51,7 +51,7 @@ int main(){
     case 1:
     printf("Enter the number you want to push:");
     scanf("%d",&item);
-    if(isfull()){
+    if(isFull()){
         printf("Stack is full");
     }
     else{
@@ -78,12 +78,15 @@ int main(){
         printf("The stack is not empty");
     }
     case 4:
-    exit 0;
+    exit(0);
+    break;
 
     default:
         break;
     }
-    }while(ans=="Y"||ans=='y');
+    printf("Do you want to continue? press y ");
+    scanf("%s",&ans);
+    }while(ans == 'Y' || ans == 'y');
 
     return 0;
 
