@@ -15,5 +15,7 @@ int main(){
     for(i=0;i<n;i++){
         printf("a[%d]=%d\t",i, array[i]);
     }
+    //free clears the space after it has been used before termination
+    free(array);
     return 0;
 }
